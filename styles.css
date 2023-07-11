@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  /* Banner Section Styles */
+  section#banner {
+    background-image: linear-gradient(to bottom, #ff7f50, #ff6347);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  section#banner h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styles */
+  section#about {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  section#about h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Profile-Image*/
+  .profile-image{
+    width: 150px;
+    height: 150px;
+  }
+
+  
+
+  
+  /* Projects Section Styles */
+  section#projects {
+    background-color: #f5f5f5;
+    padding: 30px;
+  }
+  
+  section#projects h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  div.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  div.project h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  div.project p {
+    color: #666;
+  }
+  
+  /* Contact Section Styles */
+  section#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  section#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section#contact p,
+  section#contact li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
